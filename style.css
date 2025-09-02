@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #d7e1e2;
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    color: rgb(85, 85, 85);
+}
+
+a, .btn{
+    transition: all 0.3s ease;
+
+     
+}
+
+
+nav,
+.nav-links{
+    display: flex;
+
+}
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+a{
+    color: rgb(9, 0, 0);
+    text-decoration:none ;
+    text-decoration-color: aliceblue;
+
+}
+a:hover{
+    color: rgb(73, 66, 66);
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: rgb(6, 9, 9);
+}
+.logo{
+    font-size: 1.5rem;
+}
+.logo:hover{
+    cursor: default;
+
+}
+#hamberger-nav{
+    display: none;
+
+}
+.hamberger-menu{
+    position: relative;
+    display: inline-block;
+}
+.hamberger-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+   
