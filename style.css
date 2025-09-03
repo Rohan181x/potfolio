@@ -68,8 +68,8 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 24px;
-    width: 30px;
+    height: 15px;
+    width: 20px;
     cursor: pointer;
 }
 .hamberger-icon span{
@@ -109,5 +109,44 @@ a:hover{
 .hamberger-icon.open span:first-child{
     transform: rotate(45deg) translate(5px, 5px);
 }
-
+.hamberger-icon.open span:nth-child(2){
+    opacity: 0;
+}
+.hamberger-icon.open span:last-child{
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+.hamberger-icon span:first-child{
+   transform: none;
+}
+.hamberger-icon span:first-child{
    
+   transform: none;
+}
+.section-pic{
+   display: flex;
+   justify-content: left;
+   align-items: flex-end;
+   height: 100%;
+   padding: 100px;
+}
+.section-pic img{
+   max-width: 25%;
+   height: auto;
+   border-radius: 50%;
+}
+.section-text{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 50px;
+   height: -20%;
+}
+.section-text h1{
+   font-size: 2.5rem;
+   margin-bottom: 1rem;
+}
+.section-text p{
+   font-size: 1.2rem;
+   color: rgb(85, 85, 85);
+}
